@@ -1,8 +1,8 @@
 # Swift TODO App Tutorial
 
-Code version: xCode 6.0, Swift 1.0
+Code version: xCode 6.3.1, Swift 1.0
 
-README version: xCode 6.0, Swift 1.0
+README version: xCode 6.3.1, Swift 1.0
 
 =======================
 
@@ -64,9 +64,9 @@ Please, provide feedback on anything you feel is lacking or could be better word
 1. Your storyboard should look like this: ![](/img/img_3.png)
 1. Checkpoint: Hit the run button on the top left of xCode - you should see a blank white screen with a text field that says 'New Todo' (don't worry if the text field goes off of the screen)
 
-## Gluing Our Views Together: The storyboard
+## Agrupando nuestras vistas: El storyboard
 
-##### Position text field using Auto Layout
+##### Ubicando nuestro Text Field usando Auto Layout
 When you run your code, you can change orientation by going to 'Hardware' and clicking one of the rotate buttons. Note that when you do so, your text field doesn't adjust its size automatically. Let's address that.
 
 1. In the Project Navigator on the far left of xCode, select Main.storyboard
@@ -88,7 +88,7 @@ When you run your code, you can change orientation by going to 'Hardware' and cl
   1. On the top bar of your computer click 'Hardware' and click 'Rotate Left' to enter landscape view
   1. The left, right, and top margin should match the portrait view
 
-##### Create a table view controller
+##### Crear un Table View Controller
 1. In the Project Navigator on the far left of xCode, select Main.storyboard
 1. In the Object Library, search for table view controller
 1. Drag a table view controller and drop it into the canvas. If you're lacking in space, right click on the canvas to zoom out
